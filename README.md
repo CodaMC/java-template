@@ -3,7 +3,7 @@
 [![Java CI with Gradle](https://github.com/CodaMC/java-template/actions/workflows/build.yml/badge.svg)](https://github.com/CodaMC/java-template/actions/workflows/build.yml)
 [![Latest GitHub release](https://img.shields.io/github/v/release/CodaMC/java-template)](../../releases)
 [![codecov](https://codecov.io/gh/CodaMC/java-template/branch/master/graph/badge.svg)](https://codecov.io/gh/CodaMC/java-template)
-[![license](https://img.shields.io//github/license/CodaMC/java-template)](LICENSE)
+[![license](https://img.shields.io/github/license/CodaMC/java-template)](LICENSE)
 [![Discord Shield](https://discordapp.com/api/guilds/1080829063981183170/widget.png?style=shield)](https://discord.gg/ddBXUeEcCU)
 
 You can use this template to develop your own Java projects
