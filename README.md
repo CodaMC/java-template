@@ -21,7 +21,6 @@ The template comes with a lot of features:
 
 * Ready to use [**Gradle**](https://gradle.org/) configuration
 * [**JaCoCo**](https://github.com/jacoco/jacoco) code coverage report with [**CodeCov.io**](https://codecov.io/)
-* Automatic **changelog generation** based on [**conventional commits**](https://conventionalcommits.org/)
 * [**GitHub Actions**](https://github.com/features/actions) workflow for [**Gradle**](https://gradle.org/) builds and tests
 * Publishing of **artifacts** to [**GitHub Packages**](https://github.com/feature/packages)
 * **Issue** and **PRs** templates
@@ -36,12 +35,9 @@ The template comes with a lot of features:
 
 ### Usage
 
-* **Update** the **gradle.properties**
-  * `group`: your group (e.g.: org.codamc)
-* **Update** the `root.projectName` inside **settings.gradle**.
-* **Update** the **README.md** to fit your needs.
-* **Delete** the **CHANGELOG.md**. It'll be generated after 1st release.
-* **Profit!**
+* **Update** names in the **README.md**, **build.gradle**, **settings.gradle**
+* **Remove** useless example packages
+* **Update** group and version in **build.gradle**
 
 ## Contributing
 
