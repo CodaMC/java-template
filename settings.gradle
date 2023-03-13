@@ -1,2 +1,11 @@
 rootProject.name = 'java-template'
 
+dependencyResolutionManagement {
+    versionCatalogs {
+        annotations {
+            library('jetbrains', 'org.jetbrains', 'annotations').version('24.0.1')
+            library('lombok', 'org.projectlombok', 'lombok').version('1.18.26')
+            bundle('all', ['jetbrains', 'lombok'])
+        }
+    }
+}
