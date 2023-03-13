@@ -25,6 +25,7 @@ The template comes with a lot of features:
 * Publishing of **artifacts** to [**GitHub Packages**](https://github.com/feature/packages)
 * **Issue** and **PRs** templates
 * **Contributing** and **Code of Conduct** guidelines
+* **Lombok** and **annotations**
 
 ## Quickstart
 
@@ -32,6 +33,24 @@ The template comes with a lot of features:
 
 * Create a [**new GitHub repo**](https://github.com/CodaMC/java-template/generate) using this template.
 * **Clone** this repository and open it in IntelIJ Idea.
+* Run **init.sh**
+
+```groovy
+repositories {
+  maven {
+    name = "GithubPackages"
+    url = "https://maven.pkg.github.com/CodaMC/java-template"
+    credentials {
+      username = System.getenv("GITHUB_ACTOR")
+      password = System.getenv("GITHUB_TOKEN")
+    }
+  }
+}
+
+dependencies {
+  implementation('org.codamc.foo', 'bar', '1.0-SNAPSHOT')
+}
+```
 
 ### Usage
 
